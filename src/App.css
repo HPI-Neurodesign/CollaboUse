@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #eee;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.connection-error {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  justify-content: center;
+  color: darkred;
+  font-size: 30px;
+}
+
+.suggestion-inputs {
+  margin: 0.5rem !important;
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input fieldset {
+  border-color: #444 !important;
+}
+
+.disabled-input {
+  border-color: #bbb;
+}
+
+.button {
+  margin: 0.5rem !important;
+  margin-top: 0.25rem !important;
+}
+
+.suggestion {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  align-items: center;
+}
+
+.suggestion-box {
+  display: inline-block;
+  align-self: center;
+}
+
+.item {
+  margin: 0 0.5rem;
+  text-align: start;
+}
+
+.items-list {
+  align-self: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.items-list > p {
+  margin: 1rem;
+}
+
+.suggestion-button {
+  margin: 0.5rem;
+  align-self: center;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+.centered-text {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.countdown-time {
+  font-size: 24px;
+  margin: 1rem 0.1rem;
+  font-weight: bold;
+}
+
+/* Room Selection */
+.current-room-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.room-button {
+  margin: 0 0.25rem 0.25rem 0.25rem !important;
+  width: 180px;
+}
+
+.room-button-container {
+  position: fixed;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.drag-drop {
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border: solid 2px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.can-drop {
+  color: darkblue !important;
+  border-color: darkblue !important;
+}
+
+.drop-area {
+  width: 50px;
+  border-color: #888;
+}
+
+.drop-new-area {
+  color: #888;
+  font-size: 30px;
+  padding: 0.35rem;
+}
+
+.example {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  margin: 0 auto;
+}
