@@ -36,31 +36,22 @@ export function IntroPage({
         </p>
       ) : (
         <p style={{ marginBottom: "1rem" }} className="centered-text">
-          The CollaboUse is a creativity tests for individuals or teams inspired
-          by the alternate uses task. You will receive a design challenge and
-          your task is to come up with many different solutions in 3 minutes
-          time.
+          In this association game, you receive a design challenge. Your task is
+          to <b>think up solutions in 3 minutes</b> time.
           <br></br>
           <br></br>
-          For instance, your job can be to create “tools to survive in the
+          Try to name as <b>many, diverse, and original-creative</b> solutions
+          as you can!
+          <br></br>
+          <br></br>
+          For instance, your job might be to create “tools to survive in the
           wilderness”. As building material, you have ten objects. Use and
-          combine them to create your solutions. For instance, when you have a
-          blanket and sticks, you can combine them to build a tent to survive in
-          the wilderness. Each of the ten objects can be re-used as often as you
-          like.
+          combine them to create your solutions. For example, when you have a
+          blanket and stick, you can combine them to make a flag, so as to mark
+          your camp and find it from a distance. Your 10 basic objects can be
+          re-used as often as you like.
           <br></br>
-          <br></br>
-          Try to produce as many, diverse, and original solutions as you can in
-          the given time!
-          <br></br>
-          <br></br>
-          If you are curious about the evaluation of your results, feel free to
-          contact us at{" "}
-          <a href="mailto:neurodesign@hpi.de">neurodesign@hpi.de</a>
-          <br></br>
-          <br></br> To get started join an existing room or create a new one. If
-          you wish to take the test as a team it is recommended that each team
-          member join the room on their own device.
+          <br></br> To get started join an existing room or create a new one.
         </p>
       )}
       <div>
