@@ -2,6 +2,8 @@
 
 The CollaboUse is a creativity test for individuals and teams. It builds on the Alternate Uses Task, Participants are given a prompt and need to come up with as many and as original answers as they can within three minutes.
 
+Try it out [here](https://collabouse.corinnaj.me/)!
+
 ![Example of CollaboUse Task](/readme_images/3_suggestions.png?raw=true)
 
 ## Development
