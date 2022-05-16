@@ -89,14 +89,11 @@ export function ItemSelectionPage({
         >
           Download As CSV
         </Button>*/}
-        {task && (
-          <div style={{ width: "600px", margin: "0 auto" }}>
-            Once all team members have selected their favorite items, choose one
-            of your team members to download the data set and send it to
-            corinna.jaschek@hpi.de, along with your id: <b>{playerId}</b>
-          </div>
-        )}
-        <Button variant="contained" className="button" onClick={downloadData}>
+        <Button
+          variant="contained"
+          className="button"
+          onClick={downloadDataAsCsv}
+        >
           Download
         </Button>
       </div>
