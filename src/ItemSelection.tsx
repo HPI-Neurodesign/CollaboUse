@@ -61,6 +61,7 @@ export function ItemSelectionPage({
 
   return (
     <>
+      {/*
       <p className="row">
         Now, select your two favorite suggestions. This is done individually,
         you and your team do not need to agree.
@@ -81,6 +82,7 @@ export function ItemSelectionPage({
           ))}
         </div>
       ))}
+          */}
       <div>
         {/*<Button
           variant="contained"
